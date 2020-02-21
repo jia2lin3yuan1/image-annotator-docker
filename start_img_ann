@@ -1,0 +1,4 @@
+#!/bin/bash
+# docker build -t image-annotator .
+docker build -t image-annotator .
+docker run -it --runtime=nvidia -e -P -p 5000:5000 image-annotator .
