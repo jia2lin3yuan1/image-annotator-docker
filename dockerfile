@@ -40,7 +40,7 @@ ENV PATH /home/ubuntu/anaconda3/bin:$PATH
 
 ### Getting python dependencies set for Image Annotator
 RUN conda install python=3.6
-RUN pip install pip==9.0.1
+RUN pip install--upgrade pip
 RUN pip install flask pillow easydict opencv-python scipy waitress tensorflow-gpu==1.12.0
 
 ### Forward port 5000 from within docker container to outside docker container
