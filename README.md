@@ -17,6 +17,7 @@ Requirements (for Ubuntu 16.04):
 
 - Docker to be installed on host machine
   - https://docs.docker.com/engine/install/ubuntu/
+  - Complete postinstall steps: https://docs.docker.com/engine/install/linux-postinstall/
 
 - nvidia-docker (2.0) installed on host machine
   - https://github.com/nvidia/nvidia-docker/wiki/Installation-(version-2.0)
