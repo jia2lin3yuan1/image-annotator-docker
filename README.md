@@ -6,8 +6,9 @@ Requirements (for Ubuntu 16.04):
 - git clone this repository
 
 - Image Annotator files to be placed in image-annotator-docker/
-  - https://bitbucket.org/JialinYuan/image-annotator/src/master/
-  - Move directory image-annotator-docker/model/ to /image-annotator-docker/image-annotator/deep_interactive/
+  - Just clone from this repository (no setup needed) https://bitbucket.org/JialinYuan/image-annotator/src/master/
+  - Download and extract model.zip to /image-annotator-docker/image-annotator/deep_interactive/
+    - https://oregonstate.box.com/s/dq4tc94f1299lml52a7bh7dztjkhvrj5
   
 - cuDNN 7.1.4 and place "cudnn-9.0-linux-x64-v7.1.tgz" in image-annotator-docker/ 
   - https://developer.nvidia.com/rdp/cudnn-archive
