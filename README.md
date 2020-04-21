@@ -1,8 +1,11 @@
 # image-annotator-docker
-## Requirements (for Ubuntu 16.04):
+
+## Requirements
 - Host system with NVIDIA GPU
 - Host system with internet connection
+- Tested on Ubuntu 19.04 and 19.10
 
+## Installation
 - git clone this repository
 
 - image-annotator/ directory to be placed in image-annotator-docker/
