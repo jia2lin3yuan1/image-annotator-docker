@@ -1,7 +1,8 @@
 # image-annotator-docker
-Requirements:
+Requirements (for Ubuntu 16.04): 
 - Image Annotator files to be placed in image-annotator-docker/
-- cuDNN 7.1.4 to be placed in image-annotator-docker/ 
+  - https://docs.docker.com/engine/install/ubuntu/
+- cuDNN 7.1.4 and place "cudnn-9.0-linux-x64-v7.1.tgz" in image-annotator-docker/ 
   - https://developer.nvidia.com/rdp/cudnn-archive
   - Select "Download cuDNN v7.1.4 (May 16, 2018), for CUDA 9.0"
   - Download "cuDNN v7.1.4 Library for Linux"
