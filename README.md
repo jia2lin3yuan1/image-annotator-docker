@@ -11,7 +11,7 @@ Requirements (for Ubuntu 16.04):
     - https://oregonstate.box.com/s/dq4tc94f1299lml52a7bh7dztjkhvrj5
 
 - Modify image-annotator-docker/image-annotator/config.py
-  - find line: `__C.PosNeg_Model_weight_Path = './deep_interactive/model/PASCAL/pos_neg/model.ckpt-80000'` and change it to: `__C.PosNeg_Model_weight_Path = '/deep_interactive/model/PASCAL/pos_neg/model.ckpt-80000`
+  - find line: `__C.PosNeg_Model_weight_Path = './deep_interactive/model/PASCAL/pos_neg/model.ckpt-80000'` and change it to: `__C.PosNeg_Model_weight_Path = '/image-annotator/deep_interactive/model/PASCAL/pos_neg/model.ckpt-80000`
 
   
 - cuDNN 7.1.4 and place "cudnn-9.0-linux-x64-v7.1.tgz" in image-annotator-docker/ 
