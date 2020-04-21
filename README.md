@@ -1,5 +1,5 @@
 # image-annotator-docker
-Requirements (for Ubuntu 16.04):
+## Requirements (for Ubuntu 16.04):
 - Host system with NVIDIA GPU
 - Host system with internet connection
 
@@ -26,6 +26,6 @@ Requirements (for Ubuntu 16.04):
 - nvidia-docker (2.0) installed on host machine
   - https://github.com/nvidia/nvidia-docker/wiki/Installation-(version-2.0)
 
-Build and Run:
+## Build and Run:
 1. $ `./start_img_ann`
 2. Open browser to 0.0.0.0:5000/
