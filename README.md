@@ -2,6 +2,7 @@
 
 ## Requirements
 - Host system with NVIDIA GPU
+- 10 - 20GB of storage space
 - Host system with internet connection
 - Tested on Ubuntu 19.04 and 19.10
 
@@ -9,7 +10,7 @@
 - git clone this repository
 
 - image-annotator/ directory to be placed in image-annotator-docker/
-  - git clone image-annotator/ to image-annotator-docker/ from https://bitbucket.org/JialinYuan/image-annotator/src/master/ (no install needed)
+  - git clone image-annotator/ to image-annotator-docker/ from https://bitbucket.org/JialinYuan/image-annotator/src/master/ (no install needed) (if you are a code reviewer please use branch "feature-qol" for now)
   - Download and extract model.zip to image-annotator-docker/image-annotator/deep_interactive/
     - https://oregonstate.box.com/s/dq4tc94f1299lml52a7bh7dztjkhvrj5
 
@@ -30,5 +31,5 @@
   - https://github.com/nvidia/nvidia-docker/wiki/Installation-(version-2.0)
 
 ## Build and Run:
-1. $ `./start_img_ann`
+1. $ `./start_img_ann` (wait a long time for the build)
 2. Open browser to 0.0.0.0:5000/
