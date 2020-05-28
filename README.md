@@ -10,7 +10,7 @@
 - git clone this repository
 
 - image-annotator/ directory to be placed in image-annotator-docker/
-  - git clone image-annotator/ to image-annotator-docker/ from https://bitbucket.org/JialinYuan/image-annotator/src/master/ (no install needed) (if you are a code reviewer please use branch "feature-qol" for now)
+  - git clone image-annotator/ to image-annotator-docker/ from https://bitbucket.org/JialinYuan/image-annotator/src/master/ (no install needed)
   - Download and extract model.zip to image-annotator-docker/image-annotator/deep_interactive/
     - https://oregonstate.box.com/s/dq4tc94f1299lml52a7bh7dztjkhvrj5
 
